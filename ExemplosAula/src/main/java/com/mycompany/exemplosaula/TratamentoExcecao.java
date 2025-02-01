@@ -1,7 +1,10 @@
 package com.mycompany.exemplosaula;
 
 public class TratamentoExcecao {
-//    EXCEÇÃO IMPLICITA
+//    EXCEÇÕES IMPLICITAS
+//      Definidas nos subtipos Error e RunTimeException e suas derivadas podem ocorrer em qualquer parte do programa e
+//      normalmente não são causadas diretamente pelo programador. Não precisam ser manualmente lançadas.
+    
 //    public static void main(String[], args) {
 //        int quociente, dividendo=10, divisor=0;
 //        try {
