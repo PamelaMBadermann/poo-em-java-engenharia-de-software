@@ -1,14 +1,14 @@
 package com.mycompany.exemplosaula;
 
 public class ExcecaoPersonalizada {
-    public static void main(String[] args) {
-        try {
-            int resultado = divisao(20, 0);
-            System.out.println("Resultado: " + resultado);
-        } catch (ExcecaoPersonalizadaDivisaoPorZero e){
-            System.out.println("Error: " + e.getMessage());
-        }
-    }
+//    public static void main(String[] args) {
+//        try {
+//            int resultado = divisao(20, 0);
+//            System.out.println("Resultado: " + resultado);
+//        } catch (ExcecaoPersonalizadaDivisaoPorZero e){
+//            System.out.println("Error: " + e.getMessage());
+//        }
+//    }
     
     public static int divisao(int dividendo, int divisor)
                             throws ExcecaoPersonalizadaDivisaoPorZero {
