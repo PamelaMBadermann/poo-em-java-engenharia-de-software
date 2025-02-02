@@ -3,7 +3,7 @@ package com.mycompany.gereescola;
 import java.util.Calendar;
 
 public class GereEscola {
-       
+
 //    private static Pessoa grupo [];
     private static Fisica p1 , p2;
     private static Pessoa p3;
